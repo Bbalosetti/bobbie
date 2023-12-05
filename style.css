@@ -1,0 +1,81 @@
+.gradient-background {
+    background: linear-gradient(300deg, #EABF9F, #B68973, #1E212D);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .img-fluid{
+    border-radius: 25%;
+  }
+
+  h1, p{
+    color: #FAF3E0;
+  }
+
+  .blackText{
+    color: #1E212D;
+  }
+
+  .profileImg{
+    border-radius: 100%;
+    width: 10rem;
+  }
+
+  #summary{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  h2{
+    color: #B68973;
+  }
+
+  ul{
+    list-style: none;
+    color: #1E212D;
+    padding: 0;
+  }
+
+  ul p{
+    color: #B68973;
+    padding: 0;
+    margin: 0;
+  }
+
+  li li{
+    padding: 0;
+    margin: 0;
+  }
+
+  h3{
+    margin-top: 2rem;
+  }
+
+  hr{
+    border: dotted #B68973 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 3rem auto;
+  }
+
+  .std-button{
+    background-color: #B68973;
+  }
+
+  .logoButton{
+    background-color: transparent;
+    border: none;
+    appearance: none;
+  }
